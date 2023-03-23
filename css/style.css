@@ -13,10 +13,11 @@ header {
 #Avatar {
     text-align: center;
     padding: 10px;
-    font-size: 15px;
+    font-size: 20px;
     max-width: 100%;
     max-height: 100%;
     color: brown;
+    font-family: 'Oswald', sans-serif;
     
     
 }
@@ -34,6 +35,68 @@ header {
     font-size: 30px;
     color: crimson;
     text-rendering: auto;
+    font-family: 'Edu NSW ACT Foundation', cursive;
     
+}
+
+#Nike {
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: aliceblue;
+    box-shadow: 10px 10px 10px whitesmoke;
+    border-radius: 35%;
+    border-style:outset
+}
+
+#Youtube {
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    padding: 10px;    
+    background-color:cornsilk;
+    box-shadow: 10px 10px 10px aliceblue;
+    border-radius: 35%;
+    border-style: hidden;
+}
+
+#Apple {
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    padding: 15px;  
+    background-color:lightseagreen;
+    box-shadow: 10px 10px 10px cornsilk;
+    border-radius: 35%;
+    border-style:inset
+}
+
+#Reviewsheading {
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#Reviews {
+    text-align: center;
+    border: 1px solid #e1e8ed;
+    border-radius: 5px;
+    position: center;
+    padding: 20px;
+    background-color: #fff;
+    max-width: 400px;
+    cursor: pointer;
+    transition: border-color .1s;
+    background-color:darkorange;
+    border-style: line 10px;
+    border-color: black;
+}
+
+#Reviews:hover {
+    text-align: center;
+    border-color: #ccd6dd;
+    display: flex;
 }
 
